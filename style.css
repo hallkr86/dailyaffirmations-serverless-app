@@ -1,0 +1,41 @@
+body{
+    background: url('./w0b4uqkx.png.png');
+    background-size: cover;
+    background-position: center;
+    font-family: fantasy;
+}
+
+div{
+   
+}
+
+
+form{
+    background-color: gainsboro;
+    opacity: 80%;
+    border: 30px;
+    border-radius: 30px;
+    width: 800px;
+    height: 250px;
+    display: block;
+    padding: 40px; 
+    color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+input{
+    background-color: aliceblue;
+    border-radius: 30px;
+    opacity: 80%;
+    padding-left: 8px;
+}
+
+button{
+    background-color:darkmagenta;
+    width: 100px;
+   color: whitesmoke;
+   border-radius: 30px;
+   
+}
