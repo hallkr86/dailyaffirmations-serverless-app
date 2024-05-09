@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an application intended to send out positive affirmations via. Affirmations can help shift your mindset to see things in a positive way resulting in having a happier, more confident, and lower-stress life.
+This is an application intended to send out positive affirmations via email. Affirmations can help shift your mindset to see things in a positive way resulting in having a happier, more confident, and lower-stress life.
 
 In order to use this application, you enter the amount of time you would like to send the message, the message itself, and the email address of the recipient. Once you submit your positive message, you will see the status of message.
 
