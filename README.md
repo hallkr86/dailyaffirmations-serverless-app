@@ -2,10 +2,10 @@
 
 ## Description
 
-    This is an application intended to send out positive affirmations via. Affirmations can help shift your mindset to see things in a positive way resulting in having a happier, more confident, and lower-stress life.
+This is an application intended to send out positive affirmations via. Affirmations can help shift your mindset to see things in a positive way resulting in having a happier, more confident, and lower-stress life.
 
-    In order to use this application, you enter the amount of time you would like to send the message, the message itself, and the email address of the recipient. Once you submit your positive message, you will see the status of message.
-    
+In order to use this application, you enter the amount of time you would like to send the message, the message itself, and the email address of the recipient. Once you submit your positive message, you will see the status of message.
+
 ![alt text](dailyaffirmationsserverlessapp.png)
     
 
@@ -17,13 +17,13 @@
 
 ## Questions or Suggestions
 
-    Any questions can be sent to me via Github at:
+Any questions can be sent to me via Github at:
     https://github.com/hallkr86
 
 ## Link
 
-    http://dailyaffirmations4321.s3-website-us-east-1.amazonaws.com
+http://dailyaffirmations4321.s3-website-us-east-1.amazonaws.com
 
 ## License
 
-    This project is licensed under the MIT license.
+This project is licensed under the MIT license.
