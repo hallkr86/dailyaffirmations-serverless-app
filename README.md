@@ -6,6 +6,8 @@ This is an application intended to send out positive affirmations via email. Aff
 
 In order to use this application, you enter the amount of time you would like to send the message, the message itself, and the email address of the recipient. Once you submit your positive message, you will see the status of message.
 
+For demo purposes, I configured my simple email services (SES) to my email as the recepient.
+
 ![alt text](dailyaffirmationsserverlessapp.png)
     
 
