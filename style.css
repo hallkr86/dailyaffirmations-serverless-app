@@ -3,12 +3,13 @@ body{
     background-size: cover;
     background-position: center;
     font-family: fantasy;
+     
 }
 
 div{
+    padding-left: 30px;
    
 }
-
 
 form{
     background-color: gainsboro;
@@ -16,13 +17,14 @@ form{
     border: 30px;
     border-radius: 30px;
     width: 800px;
-    height: 250px;
+    height: 350px;
     display: block;
-    padding: 40px; 
+    padding: 30px; 
     color: darkslategrey;
     display: flex;
     flex-direction: column;
-   
+    margin: auto;
+
 }
 
 input{
@@ -30,12 +32,33 @@ input{
     border-radius: 30px;
     opacity: 80%;
     padding-left: 8px;
+
 }
 
 button{
     background-color:darkmagenta;
     width: 100px;
-   color: whitesmoke;
-   border-radius: 30px;
+    color: whitesmoke;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    
+}
+
+div #success-message {
+    color: green;
+    font-weight: bold;
+     
+}
+
+div #results-message {
+    color: green;
+    font-weight: bold;
    
+}
+
+div #error-message {
+    color: red;
+    font-weight: bold;
+     
 }

@@ -12,30 +12,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
+
+
     <body>
-       <div>
+       <div col-lg-12>
             
-                
-            
+            <form align="center" method="post">
 
-          
-            <form align="center">
                 <H1>Daily Affirmations for Mindset Transformations</H1>
-            <label>Send these for a positive start</label>
+
+                        <label>Send these for a positive start</label>
             
-                <input id= "waitTime" placeholder="How long until next affirmation">
-                <input id= "message" placeholder="Type affirmation here">
+                        <input id= "waitSeconds" type="text" placeholder="How long until next affirmation (in seconds)">
+                        <input id= "message" type="text" placeholder="Type affirmation here">
                
-                <hr>
+                        <hr>
 
-                <label>Email address is required to send an email</label>
+                        <label>Email address is required to send an email</label>
                
-                <input id="email" placeholder="Email Address">
-                <hr>
+                        <input id="email" type="email" placeholder="Email Address">
 
-                <button id="emailButton">Send Off Positivity</button>
+                        <hr>
+
+                        <button id="emailButton" type="button" onClick="API_ENDPOINT">Send Off Positivity</button>
+
+                        <!-- sucess message -->
+                        <div id="success-message" type="text"></div>
+
+                        <!-- results message -->
+                        <div id="results-message" type="text"></div>
+
+                        <!-- error message -->
+                        <div id="error-message" type="text"></div>
+
+
+
+
             </form>
-          
+           
 
        </div>
         

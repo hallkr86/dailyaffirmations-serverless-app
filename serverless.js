@@ -6,7 +6,7 @@ var successDiv = document.getElementById('success-message')
 var resultsDiv = document.getElementById('results-message')
 
 // function output returns input button contents
-function waitSecondsValue() { return document.getElementById('waitTime').value }
+function waitSecondsValue() { return document.getElementById('waitSeconds').value }
 function messageValue() { return document.getElementById('message').value }
 function emailValue() { return document.getElementById('email').value }
 
@@ -28,7 +28,7 @@ function sendData (e, pref) {
         },
         method: 'POST',
         body: JSON.stringify({
-            waitTime: waitTimeValue(),
+            waitSeconds: waitSecondsValue(),
             message: messageValue(),
             email: emailValue()
         }),
@@ -37,11 +37,11 @@ function sendData (e, pref) {
     .then((resp) => resp.json())
     .then(function(data) {
         console.log(data)
-        successDiv.textContent = 'Submitted. But check the result below!';
+        successDiv.textContent = 'Submitted. But check the status below!';
         resultsDiv.textContent = JSON.stringify(data);
     })
     .catch(function(err) {
-        errorDiv.textContent = 'Oops! Error Error:\n' + err.toString();
+        errorDiv.textContent = 'Oops! There is an Error:\n' + err.toString();
         console.log(err)
     });
 };
