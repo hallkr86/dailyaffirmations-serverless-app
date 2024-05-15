@@ -19,8 +19,8 @@ For demo purposes, I configured my simple email services (SES) to my email as th
 
 ## Questions or Suggestions
 
-Any questions can be sent to me via Github at:
-    https://github.com/hallkr86
+Any questions can be sent to me via Gmail at:
+    hallkr86@gmail.com
 
 ## Link
 
